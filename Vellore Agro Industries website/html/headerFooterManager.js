@@ -10,7 +10,7 @@ class SpecialHead extends HTMLElement {
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>Vellore Agro Industries</title>
-      <meta name="keywords" content="Vellore Agro Industries, Groundnut Oil, Groundnut, Press, Vellore, kangeyanallur, SIDCO, Industrial, Estate, Unit K2, K2">
+      <meta name="keywords" content="Vellore Agro Industries, Groundnut Oil, Groundnut, Press, Vellore, kangeyanallur, SIDCO, Industrial, Estate, Unit K2, roasted synthetic preservative free seed, sunflower seeds, groundnut, pumkin, almonds">
       <meta name="description" content="Vellore Agro Industries ">
       <meta name="author" content="Marthandavarman">
       <!-- bootstrap css -->
@@ -41,25 +41,21 @@ class SpecialHeader extends HTMLElement {
          <div class="header">
             <div class="container-fluid">
                <div class="row">
-                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="./images/Veakio_D2-removebg-preview.png" style="height: 150px"  alt="#" /></a>
-                           </div>
-                        </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+                     <!-- Logo -->
+                     <div class="logo">
+                        <a href="index.html">
+                              <img src="./images/Veakio_D2-removebg-preview.png" style="height: 100px;" alt="Vellore Agro Industries Logo">
+                        </a>
+                     </div>                     
+                     <!-- Company Name (Next to Logo) -->
+                     <div class="ml-3">
+                        <a href="index.html" class="text-dark text-decoration-none">
+                              <h1 class="mb-0"><b>Vellore Agro Industries</b></h1>
+                        </a>
                      </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 logo_section">
-                     <div class="titlepage">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><h1><b>Vellore Agro Industries</b></h1></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -109,7 +105,7 @@ class SpecialFooter extends HTMLElement {
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-md-8 offset-md-2">
+                  <div class="col-md-12">
                      <ul class="location_icon">
                         <li><a href="https://maps.app.goo.gl/1UeyGmi917Ga2MfF7"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Vellore</li>
                         <li><a href="tel:+916374814875"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +91 6374814875</li>
