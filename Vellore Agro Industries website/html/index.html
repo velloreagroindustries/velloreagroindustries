@@ -355,7 +355,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <form id="request" class="main_form">
+                  <!-- <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
                            <h3>Contact Us</h3>
@@ -376,7 +376,59 @@
                            <button class="send_btn">Send</button>
                         </div>
                      </div>
-                  </form>
+                  </form> -->
+                  <form id="request" class="main_form" onsubmit="sendToWhatsApp(); return false;">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <h3>Contact Us</h3>
+                         </div>
+                         <div class="col-md-12">
+                             <input class="contactus" id="name" placeholder="Name" type="text" name="Name" required>
+                         </div>
+                         <div class="col-md-12">
+                             <input class="contactus" id="phone" placeholder="Phone Number" type="text" name="Phone" required>
+                         </div>
+                         <div class="col-md-12">
+                             <input class="contactus" id="email" placeholder="Email" type="email" name="Email" required>
+                         </div>
+                         <div class="col-md-12">
+                             <textarea class="contactusmess" id="message" placeholder="Message" name="Message" required></textarea>
+                         </div>
+                         <div class="col-md-12">
+                             <button type="submit" class="send_btn">Send</button>
+                         </div>
+                     </div>
+                 </form>
+                 
+                 <script>
+                 function sendToWhatsApp() {
+                     // Get form values
+                     var name = document.getElementById("name").value;
+                     var phone = document.getElementById("phone").value;
+                     var email = document.getElementById("email").value;
+                     var message = document.getElementById("message").value;
+                 
+                     // Validate fields (optional but recommended)
+                     if (name === "" || phone === "" || email === "" || message === "") {
+                         alert("Please fill in all fields before sending.");
+                         return;
+                     }
+                 
+                     // Replace with your WhatsApp number (include country code, no spaces)
+                     var whatsappNumber = "916374814875"; // Example: 91 for India
+                 
+                     // Format message for WhatsApp
+                     var whatsappMessage = `Hello, I am *${name}*.\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
+                 
+                     // Encode message for URL
+                     var encodedMessage = encodeURIComponent(whatsappMessage);
+                 
+                     // Open WhatsApp chat link
+                     var whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+                     window.open(whatsappURL, "_blank");
+                 }
+                 </script>
+                 
                </div>
             </div>
          </div>
@@ -423,25 +475,25 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
+      <!-- <script>
          // This example adds a marker to indicate the position of Bondi Beach in Sydney,
          // Australia.
          function initMap() {
            var map = new google.maps.Map(document.getElementById('map'), {
              zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
+             center: {lat: 12.95435, lng: 79.14889},
              });
 
          var image = 'images/maps-and-flags.png';
          var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
+             position: {lat: 12.95435, lng: 79.14889},
              map: map,
              icon: image
            });
          }
-      </script>
+      </script> -->
       <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script> -->
       <!-- end google map js -->
    </body>
 </html>
