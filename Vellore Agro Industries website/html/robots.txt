@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Allow Googlebot to fetch search console verification details
+Allow: /.well-known/
+
+# Disallow unwanted directories (if any)
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://velloreagroindustries.github.io/sitemap.xml
