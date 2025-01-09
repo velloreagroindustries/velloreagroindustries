@@ -10,7 +10,7 @@ class SpecialHead extends HTMLElement {
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>Vellore Agro Industries</title>
-      <meta name="keywords" content="Vellore Agro Industries, Groundnut Oil, Groundnut, Press, Vellore, kangeyanallur, SIDCO, Industrial, Estate, Unit K2, roasted synthetic preservative free seed, sunflower seeds, groundnut, pumkin, almonds">
+      <meta name="keywords" content="Vellore Agro Industries, Groundnut Oil, Oil, Cold Pressed Oil, Groundnut, Press, Vellore, kangeyanallur, SIDCO, Industrial, Estate, Unit K2, roasted synthetic preservative free seed, sunflower seeds, groundnut, pumkin, almonds">
       <meta name="description" content="Vellore Agro Industries ">
       <meta name="author" content="Marthandavarman">
       <!-- bootstrap css -->
@@ -45,7 +45,7 @@ class SpecialHeader extends HTMLElement {
                      <!-- Logo -->
                      <div class="logo">
                         <a href="index.html">
-                              <img src="./images/Veakio_D2-removebg-preview.png" style="height: 100px;" alt="Vellore Agro Industries Logo">
+                              <img src="./images/company_logo.webp" style="height: 100px;" alt="Vellore Agro Industries Logo">
                         </a>
                      </div>                     
                      <!-- Company Name (Next to Logo) -->
@@ -69,10 +69,7 @@ class SpecialHeader extends HTMLElement {
                                  <a class="nav-link" href="products.html">Our Products</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="healthbenefits.html">Health Benefits</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="aboutus.html">About Us</a>
+                                 <a class="nav-link" href="intrestingfacts.html">Intresting Facts</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="contact.html">Contact Us</a>
@@ -118,7 +115,7 @@ class SpecialFooter extends HTMLElement {
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2025 All Rights Reserved. Design by<a href="https://www.linkedin.com/in/marthandavarman-vivekanandan/"> Marthandavarman V</a></p>
+                        <p >© 2025 All Rights Reserved. Design by<a href="https://www.linkedin.com/in/marthandavarman-vivekanandan/"><span class="blu"> Marthandavarman V</span></a></p>
                      </div>
                   </div>
                </div>
