@@ -2,6 +2,7 @@ class SpecialHead extends HTMLElement {
     connectedCallback(){
         this.innerHTML= `
         <head>
+        <meta name="google-site-verification" content="tM-839Au5mA8uORV1UByz_w3ifBBnwYPspw8Ftdvm-8" />
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
